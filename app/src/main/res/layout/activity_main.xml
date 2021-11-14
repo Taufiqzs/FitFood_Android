@@ -12,7 +12,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:contentDescription="Click the button"
+
 
         app:srcCompat="@drawable/fitfoodlogoimg" />
 
@@ -122,7 +122,7 @@
             android:layout_height="80dp"
             android:layout_marginRight="20dp"
             android:layout_below="@id/webads"
-            android:contentDescription="Click the button"
+
             app:srcCompat="@drawable/vipimg" />
 
         <ImageButton
@@ -146,7 +146,7 @@
 
             android:layout_below="@id/voucher"
 
-            android:contentDescription="Click the button"
+
             app:srcCompat="@drawable/foodtimg" />
     </LinearLayout>
 

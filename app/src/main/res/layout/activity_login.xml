@@ -40,12 +40,17 @@
             android:text="Username" />
 
         <EditText
+            android:id="@+id/username"
             android:layout_width="300dp"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="67dp"
             android:layout_marginTop="20dp"
-            android:gravity="center" />
+            android:gravity="left" />
+
+
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -57,8 +62,9 @@
             android:text="Password" />
 
         <EditText
+            android:id="@+id/passwords"
             android:layout_width="300dp"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_marginStart="67dp"
             android:layout_marginTop="20dp"
