@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <ImageView
+        android:id="@+id/fitfoodlogo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:contentDescription="Click the button"
+
+        app:srcCompat="@drawable/fitfoodlogoimg" />
+
+
+    <!--    <EditText-->
+<!--        android:id="@+id/search"-->
+<!--        android:layout_width="210dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="210dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:hint="Search:"-->
+<!--        android:minHeight="48dp"-->
+<!--        />-->
+
+    <ImageButton
+        android:id="@+id/subscribe"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="false"
+        android:layout_marginStart="253dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="Click the button"
+        app:srcCompat="@drawable/subscribeimg" />
+
+    <ImageView
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fitfoodlogo"
+        android:layout_alignParentStart="true"
+
+        android:contentDescription="Click the button"
+        app:srcCompat="@drawable/garisp_tengah" />
+
+    <ImageButton
+        android:id="@+id/automanagebutton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="Click the button"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/garis"
+        app:srcCompat="@drawable/group_4"
+        />
+
+    <ImageButton
+        android:id="@+id/filesyncbutton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/garis"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="200dp"
+
+        android:contentDescription="Click the button"
+        app:srcCompat="@drawable/group_6" />
+
+    <ImageButton
+        android:id="@+id/fastcompactbutton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filesyncbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+
+        android:contentDescription="Click the button"
+        app:srcCompat="@drawable/group_3" />
+
+    <ImageButton
+        android:id="@+id/multipleupload"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fastcompactbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+
+        android:contentDescription="Click the button"
+        app:srcCompat="@drawable/group_5" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginVertical="60dp"
+
+        app:srcCompat="@android:drawable/ic_search_category_default" />
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button" />-->
+</RelativeLayout>
