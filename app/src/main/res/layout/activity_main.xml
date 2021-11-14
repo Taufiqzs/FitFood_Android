@@ -26,21 +26,23 @@
 <!--        android:hint="Search:"-->
 <!--        android:minHeight="48dp"-->
 <!--        />-->
-    <LinearLayout   android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="horizontal"
         android:paddingLeft="200dp"
-        android:paddingTop="10dp"
-        android:orientation="horizontal">
+        android:paddingTop="10dp">
+
         <ImageButton
             android:id="@+id/subscribe"
             android:layout_width="70dp"
             android:layout_height="20dp"
             android:layout_alignParentStart="true"
-            android:paddingLeft="10dp"
-            android:paddingTop="20dp"
             android:layout_marginTop="5dp"
-
             android:contentDescription="Click the button"
+            android:paddingLeft="10dp"
+
+            android:paddingTop="20dp"
             android:scaleType="center"
             app:srcCompat="@drawable/subscribeimg" />
 
@@ -60,6 +62,7 @@
             android:layout_height="25dp"
             android:layout_alignParentStart="true"
             android:layout_marginTop="5dp"
+            android:onClick="loginRedirect"
             android:text="Login" />
 
 

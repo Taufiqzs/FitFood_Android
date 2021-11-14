@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/TAUFIQ/AndroidStudioProjects/FitFood/app/src/main/res/layout/activity_main.xml" value="0.4270833333333333" />
+        <entry key="..\:/University/FitFood/FitFood_Android/app/src/main/res/font/poppings.xml" value="0.16354166666666667" />
+        <entry key="..\:/University/FitFood/FitFood_Android/app/src/main/res/font/poppins.xml" value="0.28958333333333336" />
+        <entry key="..\:/University/FitFood/FitFood_Android/app/src/main/res/layout/activity_login.xml" value="0.3346354166666667" />
+        <entry key="..\:/University/FitFood/FitFood_Android/app/src/main/res/layout/activity_main.xml" value="0.3346354166666667" />
+        <entry key="..\:/University/FitFood/FitFood_Android/app/src/main/res/layout/login.xml" value="0.4" />
+        <entry key="..\:/Users/TAUFIQ/AndroidStudioProjects/FitFood/app/src/main/res/layout/activity_main.xml" value="0.67" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
