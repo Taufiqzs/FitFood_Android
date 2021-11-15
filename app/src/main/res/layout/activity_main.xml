@@ -82,7 +82,7 @@
             android:layout_height="25dp"
             android:layout_alignParentStart="true"
             android:layout_marginTop="5dp"
-
+            android:onClick="RegisterRedirect"
             android:text="Register" />
     </LinearLayout>
 
