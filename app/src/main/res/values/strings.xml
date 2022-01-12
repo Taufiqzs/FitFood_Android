@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FitFood</string>
+    <string name="navigation_menu_home">HOME</string>
+    <string name="navigation_menu_account">ACCOUNT</string>
+    <string name="navigation_menu_consultation">ABOUT</string>
+    <string name="navigation_menu_foodlist">FOOD LIST</string>
 </resources>

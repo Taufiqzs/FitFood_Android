@@ -6,192 +6,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <ImageView
-        android:id="@+id/fitfoodlogo"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-
-
-        app:srcCompat="@drawable/fitfoodlogoimg" />
-
-
-    <!--    <EditText-->
-<!--        android:id="@+id/search"-->
-<!--        android:layout_width="210dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginLeft="210dp"-->
-<!--        android:layout_alignParentStart="true"-->
-<!--        android:hint="Search:"-->
-<!--        android:minHeight="48dp"-->
-<!--        />-->
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:paddingLeft="200dp"
-        android:paddingTop="10dp">
-
-        <ImageButton
-            android:id="@+id/subscribe"
-            android:layout_width="70dp"
-            android:layout_height="20dp"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="5dp"
-            android:contentDescription="Click the button"
-            android:paddingLeft="10dp"
-
-            android:paddingTop="20dp"
-            android:scaleType="center"
-            app:srcCompat="@drawable/subscribeimg" />
-
-        <ImageView
-            android:id="@+id/garis_pemisah_1"
-            android:layout_width="15dp"
-            android:layout_height="31dp"
-            android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
 
 
-            android:contentDescription="Click the button"
-            app:srcCompat="@drawable/garis_pemisah_1" />
-
-        <TextView
-            android:id="@+id/login"
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="5dp"
-            android:onClick="loginRedirect"
-            android:text="Login" />
-
-
-        <ImageView
-            android:id="@+id/garis_pemisah_2"
-            android:layout_width="15dp"
-            android:layout_height="31dp"
-            android:layout_alignParentStart="true"
-
-
-            android:contentDescription="Click the button"
-            app:srcCompat="@drawable/garis_pemisah_1" />
-
-        <TextView
-            android:id="@+id/register"
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="5dp"
-            android:onClick="RegisterRedirect"
-            android:text="Register" />
-    </LinearLayout>
-
-
-    <ImageView
-        android:id="@+id/garis"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/fitfoodlogo"
-        android:layout_alignParentStart="true"
-
-        app:srcCompat="@drawable/garisp_tengah" />
-
-    <ImageView
-        android:id="@+id/webads"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/garis"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
-        android:paddingTop="10dp"
-        app:srcCompat="@drawable/webadsimg" />
-
-    <LinearLayout
-        android:id="@+id/barisapps"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:paddingLeft="60dp"
-
-        android:layout_below="@id/webads"
-        android:orientation="horizontal"
-        android:paddingTop="10dp">
-
-        <ImageButton
-            android:id="@+id/voucher"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginRight="20dp"
-            android:layout_below="@id/webads"
-
-            app:srcCompat="@drawable/vipimg" />
-
-        <ImageButton
-            android:id="@+id/consul"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginRight="20dp"
-            android:layout_below="@id/webads"
-            android:paddingTop="0dp"
-            android:paddingBottom="0dp"
-
-            app:srcCompat="@drawable/consulimg" />
-
-
-        <ImageButton
-            android:id="@+id/fooddetail"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:paddingTop="0dp"
-            android:paddingBottom="0dp"
-
-            android:layout_below="@id/voucher"
-
-
-            app:srcCompat="@drawable/foodtimg" />
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/tips"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/barisapps"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="30dp"
-        android:paddingTop="10dp"
-        app:srcCompat="@drawable/tipsimg" />
-
-
-    <ImageView
-        android:id="@+id/bannerads"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tips"
-        android:layout_alignParentLeft="true"
-
-        android:layout_marginLeft="45dp"
-        android:paddingTop="40dp"
-        app:srcCompat="@drawable/banneradimg" />
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        />
+    <RelativeLayout
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
 
-        android:gravity="center" >
+        android:gravity="center">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:text="All rights reserved. FitFood © 2021"
-            android:textColor="#000"
-            android:textSize="15sp" />
+            app:menu="@menu/menu_navigation" />
 
     </RelativeLayout>
 
-<!--    <Button-->
-<!--        android:id="@+id/button"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Button" />-->
 </RelativeLayout>
